@@ -21,3 +21,6 @@ A diferencia de los TTS convencionales que suenan robóticos o formales, este fl
 
 ### **Uso y Reproducibilidad**
 Para ejecutar este flujo, el usuario debe contar con su propia `API Key` de ElevenLabs configurada en el nodo principal. Al presionar "Ejecutar", el flujo renderiza la mezcla completa en aproximadamente 5 a 10 segundos, demostrando su viabilidad como una solución SaaS de bajo costo computacional local.
+
+
+<img width="1082" height="659" alt="image" src="https://github.com/user-attachments/assets/f18cbd55-764c-4dbd-b97d-927c22945409" />
