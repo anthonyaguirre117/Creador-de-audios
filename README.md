@@ -12,8 +12,8 @@ Para lograr un resultado comercial de alta fidelidad, el circuito se compone de 
 3. **Consola de Mezcla (`Audio Mix / Merge`):** * Nodo matemático que superpone la pista de voz generada por la IA sobre la pista de ambiente, permitiendo ajustar los niveles de volumen para que la locución principal no se pierda.
 4. **Exportación (`Save Audio`):** * Compila y guarda el resultado final en un archivo `.mp3` listo para ser reproducido en altavoces externos o perifoneo móvil.
 
-### 🎛️ Ingeniería de Parámetros (El "Diferenciador")
-A diferencia de los TTS convencionales que suenan robóticos o formales, este flujo utiliza "Ingeniería de Parámetros" para emular la euforia y el tono de un vendedor real en la calle. Los ajustes clave aplicados son:
+### 🎛️ Parámetros
+A diferencia de los TTS convencionales que suenan robóticos o formales, este flujo utiliza "Parámetros" para emular la euforia y el tono de un vendedor real en la calle. Los ajustes clave aplicados son:
 * **Estabilidad (Stability) ajustada al `0.25`:** Al reducir este valor, se le otorga libertad al modelo matemático para variar el tono y la emoción, sonando más humano y menos predecible.
 * **Exageración de Estilo (Style) ajustado al `0.50`:** Fuerza a la IA a "actuar" el guion en lugar de solo leerlo, ideal para textos con signos de exclamación.
 
