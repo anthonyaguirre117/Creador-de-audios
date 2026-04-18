@@ -1,6 +1,6 @@
 <img width="1029" height="384" alt="image" src="https://github.com/user-attachments/assets/bcd6cc11-0568-46c9-a468-b73d69f11a37" />
 
-## 🎙️ Módulo de Síntesis de Voz y Diseño Sonoro (Comercio Itinerante)
+## 🎙️ Módulo de Síntesis de Voz y Diseño Sonoro (Comercio)
 
 ###**Descripción General**
 Este flujo de trabajo implementa un motor de Text-to-Speech (TTS) hiperrealista utilizando la API de **ElevenLabs** integrada directamente en **ComfyUI**. El objetivo principal es generar activos de audio dinámicos para casos de uso comercial (ej. perifoneo para venta de chatarra o helados), operando ComfyUI como un servidor backend que procesa solicitudes mediante formato JSON.
