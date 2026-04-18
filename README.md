@@ -1,3 +1,5 @@
+<img width="1029" height="384" alt="image" src="https://github.com/user-attachments/assets/bcd6cc11-0568-46c9-a468-b73d69f11a37" />
+
 ## 🎙️ Módulo de Síntesis de Voz y Diseño Sonoro (Comercio Itinerante)
 
 ###**Descripción General**
