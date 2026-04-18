@@ -1,0 +1,76 @@
+{
+  "10": {
+    "inputs": {
+      "text": "LLegaron los helados, muy sabrosos, tenemos de fresa, de limon, napolitano, a muy buen precio, acerquese a la unidad movil",
+      "stability": 0.25,
+      "apply_text_normalization": "auto",
+      "model": "eleven_multilingual_v2",
+      "model.speed": 1,
+      "model.similarity_boost": 0.75,
+      "model.use_speaker_boost": false,
+      "model.style": 0.15,
+      "language_code": "",
+      "seed": 1100239237,
+      "output_format": "mp3_44100_192",
+      "voice": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "ElevenLabsTextToSpeech",
+    "_meta": {
+      "title": "ElevenLabs Texto a Voz"
+    }
+  },
+  "11": {
+    "inputs": {
+      "filename_prefix": "audio/ComfyUI",
+      "quality": "V0",
+      "audioUI": "/api/view?filename=2e2be3abef215a137794fe2f5cbc69146e98226da76abdc1b40a7da03fd252da.mp3&type=output&subfolder=audio&",
+      "audio": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "SaveAudioMP3",
+    "_meta": {
+      "title": "Guardar Audio (MP3)"
+    }
+  },
+  "12": {
+    "inputs": {
+      "voice": "Roger (male, american)"
+    },
+    "class_type": "ElevenLabsVoiceSelector",
+    "_meta": {
+      "title": "Selector de Voz de ElevenLabs"
+    }
+  },
+  "13": {
+    "inputs": {
+      "audio": "73375f0bd819cdf69515c0c9c07a60a7380ee6f8ca65cfdbd6913d142bdadb8c.mp3",
+      "audioUI": "/api/view?filename=73375f0bd819cdf69515c0c9c07a60a7380ee6f8ca65cfdbd6913d142bdadb8c.mp3&type=input&subfolder=&"
+    },
+    "class_type": "LoadAudio",
+    "_meta": {
+      "title": "CargarAudio"
+    }
+  },
+  "14": {
+    "inputs": {
+      "merge_method": "add",
+      "audio1": [
+        "10",
+        0
+      ],
+      "audio2": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "AudioMerge",
+    "_meta": {
+      "title": "Combinar Audio"
+    }
+  }
+}
