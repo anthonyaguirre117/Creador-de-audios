@@ -17,5 +17,5 @@ A diferencia de los TTS convencionales que suenan robóticos o formales, este fl
 * **Estabilidad (Stability) ajustada al `0.25`:** Al reducir este valor, se le otorga libertad al modelo matemático para variar el tono y la emoción, sonando más humano y menos predecible.
 * **Exageración de Estilo (Style) ajustado al `0.50`:** Fuerza a la IA a "actuar" el guion en lugar de solo leerlo, ideal para textos con signos de exclamación.
 
-### 🚀 Uso y Reproducibilidad
+### **Uso y Reproducibilidad**
 Para ejecutar este flujo, el usuario debe contar con su propia `API Key` de ElevenLabs configurada en el nodo principal. Al presionar "Ejecutar", el flujo renderiza la mezcla completa en aproximadamente 5 a 10 segundos, demostrando su viabilidad como una solución SaaS de bajo costo computacional local.
